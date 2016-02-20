@@ -36,7 +36,7 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "apidoc-core": "~0.6.1",
+    "apidoc-core": "git+https://github.com/bcho/apidoc-core.git#c55e323",
     "fs-extra": "~0.26.5",
     "lodash": "~4.5.0",
     "markdown-it": "^6.0.0",

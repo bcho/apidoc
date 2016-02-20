@@ -161,6 +161,13 @@
 
     {{subTemplate "article-sample-request" article=article id=id}}
 
+    {{#if article.extras}}
+      <h2>Extra</h2>
+      {{#each article.extras}}
+      <pre class="prettyprint language-json" data-type="json"><code>{{{this}}}</code></pre>
+      {{/each}}
+    {{/if}}
+
   </article>
 </script>
 
